@@ -76,6 +76,7 @@ nav .inner button{
     color: var(--pure);
     font-size: 14px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 section.profile
@@ -249,7 +250,7 @@ section.about .content p{
     letter-spacing: 0.1px; /*Space between letters*/
     margin-bottom: 1rem;
 }
-section.about .content .left button{
+section.about .content .left a{
     background: rgba(77,121,246, 0.1);
     color :var(--info);
     padding: 4px 8px;
